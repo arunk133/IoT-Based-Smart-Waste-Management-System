@@ -8,7 +8,7 @@ import pymongo
 from pymongo import MongoClient
 
 # Connect to MongoDB
-MONGO_URI = "mongodb+srv://u2201056:arun123@cluster0.er8r4.mongodb.net/smartwaste?retryWrites=true&w=majority"
+MONGO_URI = "you-uri"
 client = MongoClient(MONGO_URI)
 
 db = client['smartwaste']  # Replace with your database name
