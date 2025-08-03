@@ -26,7 +26,7 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 
 
 ## Folder Structure
-
+```
 ├── firmware/
 |   ├── esp32.uno
 ├── hardware/
