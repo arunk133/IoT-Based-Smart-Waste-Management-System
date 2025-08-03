@@ -27,4 +27,44 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 
 ## Folder Structure
 
+├── firmware/
+|   ├── esp32.uno
+├── hardware/
+│   ├── ESP32.png
+│   ├── HC SR04 Ultrasonic sensor.png
+│   ├── IR proximity sensor.png
+│  
+│       
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── patientRoutes.js
+│   │   └── doctorRoutes.js
+│   ├── controllers/
+│   └── models/
+│
+├── ml/
+│   ├── predict_fill_level.py
+│   └── enhanced_bin_data.csv
+│
+├── hardware/
+│   ├── circuit_diagram.png
+│   └── wiring_notes.txt
+│
+├── images/
+│   ├── website_ui.png
+│   └── ml_graph.png
+│
+├── data/
+│   ├── test_upload.edf
+│   └── test_patient.csv
+│
+├── .env.example
+├── package.json
+├── README.md
+└── LICENSE
+```
+
+
 
