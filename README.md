@@ -22,7 +22,7 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 | Backend         | Node.js                        |
 | Database        | MongoDB                        |
 | Auth            | Email-Password Login           |
-| ML              | XGBoost/Python                 |
+| ML              | GradientBoostingRegressor      |
 
 
 ## Folder Structure
