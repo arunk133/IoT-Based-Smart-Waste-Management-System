@@ -28,7 +28,7 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 ## Folder Structure
 ```
 ├── firmware/
-|   ├── esp32.uno
+|    └──  esp32.uno
 |
 ├── hardware/
 │   ├── ESP32.png
@@ -36,46 +36,36 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 │   ├── IR proximity sensor.png
 │   ├── MG90S Servo motor.png
 |   ├── MQ-2 Gas sensor.png
-|   ├── circuit-diagram
-│       
+|   └── circuit-diagram
+|
+├── ml_model/
+│   ├── ML output.png
+|   ├── ai_api.py
+│   └── enhanced_bin_data.csv
+│    
 ├── website/
 │   ├── backend/
 |   |   ├── config/
-|   |       ├── db.js
+|   |        └──  db.js
 |   |   ├── middleware/
-|   |       ├── authMiddleware.js
+|   |        └── authMiddleware.js
 |   |   ├── models/
 |   |       ├── sensorData.js
 |   |       ├── user.js
-|   |       ├── userRoutes.js
+|   |        └──  userRoutes.js
 |   |   ├── routes/
 |   |       ├── authRoutes.js
 |   |       ├── sensorRoutes.js
-|   |       ├── userRoutes.js
-│   ├── routes/
-│   │   ├── patientRoutes.js
-│   │   └── doctorRoutes.js
-│   ├── controllers/
-│   └── models/
-│
-├── ml/
-│   ├── predict_fill_level.py
-│   └── enhanced_bin_data.csv
-│
-├── hardware/
-│   ├── circuit_diagram.png
-│   └── wiring_notes.txt
-│
-├── images/
-│   ├── website_ui.png
-│   └── ml_graph.png
-│
-├── data/
-│   ├── test_upload.edf
-│   └── test_patient.csv
-│
-├── .env.example
-├── package.json
+|   |        └──  userRoutes.js
+│   ├── frontend/
+│   │   ├── Dashboard.png
+|   |   ├── Login page_image 1.png
+|   |   ├── Login page_image 2.png
+|   |   ├── Registration page.png
+|   |   ├── index.html
+|   |   ├── script.js
+│   │   └── style.css
+│   
 ├── README.md
 └── LICENSE
 ```
