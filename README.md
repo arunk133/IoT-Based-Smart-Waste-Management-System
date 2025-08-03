@@ -66,8 +66,7 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 |   |   ├── script.js
 │   │   └── style.css
 │   
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 
