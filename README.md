@@ -29,15 +29,29 @@ An IoT-based smart waste management system using ESP32, ultrasonic and smoke sen
 ```
 ├── firmware/
 |   ├── esp32.uno
+|
 ├── hardware/
 │   ├── ESP32.png
 │   ├── HC SR04 Ultrasonic sensor.png
 │   ├── IR proximity sensor.png
-│  
+│   ├── MG90S Servo motor.png
+|   ├── MQ-2 Gas sensor.png
+|   ├── circuit-diagram
 │       
-│
-├── backend/
-│   ├── server.js
+├── website/
+│   ├── backend/
+|   |   ├── config/
+|   |       ├── db.js
+|   |   ├── middleware/
+|   |       ├── authMiddleware.js
+|   |   ├── models/
+|   |       ├── sensorData.js
+|   |       ├── user.js
+|   |       ├── userRoutes.js
+|   |   ├── routes/
+|   |       ├── authRoutes.js
+|   |       ├── sensorRoutes.js
+|   |       ├── userRoutes.js
 │   ├── routes/
 │   │   ├── patientRoutes.js
 │   │   └── doctorRoutes.js
